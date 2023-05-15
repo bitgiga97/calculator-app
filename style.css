@@ -1,0 +1,201 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 700;
+    height: 100vh;
+    width: 100vw;
+    box-sizing: border-box;
+    padding: 30px 24px;
+}
+
+*,
+*::before,
+*::after {
+    font-weight: inherit;
+}
+
+
+/* custom styles for every themes */
+
+.logo>h1 {
+    font-size: 3.2rem;
+    line-height: 29px;
+    text-align: center;
+    letter-spacing: -0.533333px;
+    padding-top: 1rem;
+    padding-left: 0.7rem;
+}
+
+header>p {
+    font-size: 12px;
+    line-height: 11px;
+    text-align: center;
+    letter-spacing: 1px;
+    margin-top: 2.6rem;
+    padding-left: 12rem;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.output {
+    width: 32.7rem;
+    height: 8.8rem;
+    border-radius: 1rem;
+    margin-top: 3.2rem;
+    margin-bottom: 2.4rem;
+}
+
+#screen {
+    font-size: 4rem;
+    line-height: 3.7rem;
+    text-align: right;
+    letter-spacing: -0.666667px;
+    box-sizing: border-box;
+    padding: 2.9rem 2.4rem 2.2rem 0;
+}
+
+.nums>input {
+    width: 6rem;
+    height: 6.4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 0px -4px 0px #B3A497;
+    border-radius: 0.5rem;
+    border: none;
+}
+
+.nums>input[value] {
+    font-size: 32px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.533333px;
+}
+
+.del {
+    font-size: 20px !important;
+    line-height: 18px !important;
+    letter-spacing: -0.333333px !important;
+}
+
+.input>.nums {
+    width: 32.7rem;
+    height: 42rem;
+    border-radius: 1rem;
+    box-sizing: border-box;
+    padding: 2.4rem;
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-template-rows: repeat(4, auto);
+    gap: 1.3rem;
+    padding-bottom: 10rem;
+}
+
+.reset-equal {
+    margin-top: -8.7rem;
+    display: flex;
+    gap: 1.3rem;
+    justify-content: space-between;
+    margin-left: 2.4rem;
+    margin-right: 2.4rem;
+}
+
+.reset {
+    width: 13.3rem;
+    height: 6.4rem;
+    border: none;
+    border-radius: 0.5rem;
+    box-shadow: inset 0px -4px 0px #B3A497;
+    font-size: 20px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.333333px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.equal {
+    width: 13.3rem;
+    height: 6.4rem;
+    box-shadow: inset 0px -4px 0px #B3A497;
+    border: none;
+    border-radius: 0.5rem;
+    font-size: 20px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.333333px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Define styles for the switcher button */
+
+.switcher {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 71px;
+    height: 26px;
+    border: none;
+    border-radius: 20px;
+    position: relative;
+    margin-top: 1rem;
+}
+
+
+/* Define styles for each section of the button */
+
+.switcher button {
+    width: 20px;
+    height: 20px;
+    font-size: 16px;
+    color: white;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+
+/* Define styles for the active section of the button */
+
+.switcher button.active {
+    background-color: white;
+    color: gray;
+    border-radius: 50%;
+    width: 1.6rem;
+    height: 1.6rem;
+    transition: all 0.3s;
+}
+
+
+/* Define styles for the circle inside the button */
+
+.circle {
+    position: absolute;
+    top: 5px;
+    left: 0px;
+    width: 1.6rem;
+    height: 1.6rem;
+    border-radius: 50%;
+    background-color: gray;
+    transition: left 0.3s;
+    opacity: 0.5;
+}

@@ -1,0 +1,60 @@
+body {
+    background: #17062A;
+}
+
+.logo>h1 {
+    color: #FFE53D;
+}
+
+header>p {
+    color: #FFE53D;
+}
+
+.circle {
+    background: #00DED0;
+    opacity: 1;
+}
+
+.output {
+    background: #1E0936;
+    color: #FFE53D
+}
+
+.input>.nums {
+    background: #1E0936;
+}
+
+.nums>input[value] {
+    color: #FFE53D;
+}
+
+.nums>input {
+    background: #331C4D;
+    box-shadow: inset 0px -4px 0px #881C9E;
+}
+
+#screen {
+    color: #FFE53D;
+}
+
+.del {
+    background: #56077C !important;
+    box-shadow: inset 0px -4px 0px #BE15F4 !important;
+    color: #ffffff !important;
+}
+
+.reset {
+    background: #56077C;
+    box-shadow: inset 0px -4px 0px #BE15F4;
+    color: #ffffff;
+}
+
+.equal {
+    background: #00DED0;
+    box-shadow: inset 0px -4px 0px #6CF9F1;
+    color: #1A2327;
+}
+
+.switcher {
+    background: #1E0936;
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- displays site properly based on user's device -->
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&display=swap" rel="stylesheet">
+    <title>Frontend Mentor | Calculator app</title>
+    <link id="theme-link" rel="stylesheet" href="theme1.css">
+
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <h1>Calc</h1>
+        </div>
+        <p>THEME</p>
+        <div class="switcher">
+
+            <button class="section1 active">1</button>
+            <button class="section2">2</button>
+            <button class="section3">3</button>
+            <div class="circle"></div>
+        </div>
+
+    </header>
+
+    <section class="output">
+        <div id="screen">123test</div>
+    </section>
+    <section class="input">
+        <div class="nums">
+            <input type="button" value="7">
+            <input type="button" value="8">
+            <input type="button" value="9">
+            <input type="button" value="DEL" class="del">
+            <input type="button" value="4">
+            <input type="button" value="5">
+            <input type="button" value="6">
+            <input type="button" value="+">
+            <input type="button" value="1">
+            <input type="button" value="2">
+            <input type="button" value="3">
+            <input type="button" value="-">
+            <input type="button" value=".">
+            <input type="button" value="0">
+            <input type="button" value="/">
+            <input type="button" value="x">
+        </div>
+        <div class="reset-equal">
+            <button type="reset" class="reset">RESET</button>
+            <input type="button" value="=" class="equal">
+        </div>
+    </section>
+
+    <script src="./script.js"></script>
+
+</body>
+
+</html>
